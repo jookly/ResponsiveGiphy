@@ -23,3 +23,24 @@ footer {
   text-align: center;
   padding-top: 25px;
 }
+
+.giphyPlacement{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+h2{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+@media (max-width: 1000px){
+  header img {
+    width: 100vw;
+  }
+}
